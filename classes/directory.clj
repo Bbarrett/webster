@@ -22,7 +22,6 @@
      (run-list directory)
      (println "directory not found")))
  
-
 (defn filter-files [label]
   (filter #(.endsWith (str %) label)))
 
@@ -35,7 +34,7 @@
 
 
 
-  (get-labeled-files "/Users/brandonbarrett/Documents" ".html")
+
  
 
 
