@@ -2,7 +2,6 @@
   (:import java.io.File))
   (use 'clojure.java.io)
  
- 
 (defn list-contents 
   "lists files, pre-sort"
   [directory]
