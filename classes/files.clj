@@ -4,7 +4,6 @@
 
 (def prompt "Enter file name:")
 
-
 (defn check-for-file [file]
  (if (.exists (as-file file))
    (println file "found")
@@ -13,7 +12,6 @@
 (defn name-file [prompt]
   (println prompt)
   (read-line))
-
 
  (defn search-for-input [input]
    (if (.exists (as-file input))
