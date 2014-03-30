@@ -1,7 +1,6 @@
 (ns directory
   (:import java.io.File))
   
- 
 (defn list-contents 
   "lists files, pre-sort"
   [directory]
