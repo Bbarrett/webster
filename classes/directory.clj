@@ -16,7 +16,7 @@
   (list-contents (File. directory)))
  
 (defn check-directory [directory]
- (if(.exists (as-file directory))
+ (if (.exists (as-file directory))
      (run-list directory)
      (println "directory not found")))
  
