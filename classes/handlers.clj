@@ -42,7 +42,7 @@
  "Creates a directory to store project files." 
  [directory folder-name]
    (.mkdir (java.io.File. directory folder-name))
-         (println "new extension" folder-name "added to" directory))
+         (println "new extension" folder-name "added to" directory)) 
 
 
 
