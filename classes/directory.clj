@@ -2,7 +2,7 @@
   (:import java.io.File))
   
 (defn list-contents 
-  "lists files, pre-sort"
+  "list files, pre-sort"
   [directory]
    (println(.getName directory))
    (doseq [f (.listFiles directory)]
