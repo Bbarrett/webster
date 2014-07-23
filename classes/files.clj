@@ -15,8 +15,8 @@
 
  (defn search-for-input [input]
    (if (.exists (as-file input))
-         (println "yes")
-         (println "nope.")))
+         (println "File exists.")
+         (println "No file exists with this name.")))
 
 (defn check-input []
   (loop [input (name-file prompt)]
